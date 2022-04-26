@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' 
+        rel='stylesheet' type='text/css'>
+        <link rel="icon" href="images/logo/favicon.ico">
+    </head>
+    <body style="scroll-behavior: smooth;" id="Home">
+        <style>
+            .overlay-content{
+                position:relative;
+                background: black;
+                width: 100%;
+                height: max-content;
+                top: 120px;
+            }
+        </style>
+        <nav>
+            <div class="row" style="border-bottom: 2px solid black;position:fixed;width: 100%;height: 120px;background-color: white;">
+                <a href="#Home"><img src="images/logo/logo.png" height="100px" width="100px" style="margin: 10px;"></a>
+                <div style="width: 100%;height: 100px;"></div>
+                <ul class="main-nav">
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Reviews">Reviews</a></li>
+                    <li><a href="#Outlets">Outlets</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li style="margin-top: 38px;"><a href="#Order">
+                            <div style="
+                                color: white;
+                                font-weight: 500;
+                                width: max-content;
+                                background-color:orange;
+                                padding: 16px 16px 16px 16px ;
+                                border-radius: 8px;
+                                ">
+                                Order Now
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="overlay-content">
+            <img src="images/background/bg.jpg" style="width: 100%;opacity: 0.45;">
+            <p style="position: absolute; top: 200px;left: 100px;font-size: 72px;color: whitesmoke;">
+                Super yummmmyyyy...<br>
+                &emsp;&emsp;&emsp;&emsp; Super tastttyyyy...<br>
+            </p>
+        </div>
+        <div id="Menu">
+            <div style="height: 150px;width: 100%;"></div>
+            <h1>MENU</h1>
+            <div style="text-align: end; font-weight: 400;">
+                <a href="https://www.zomato.com/mumbai/food-search-santacruz-west/menu">View all>></a>
+            </div>
+            <table style="margin-top: 10px;">
+                <tr>
+                    <td><img src="images/menu/1.jpg"></td>
+                    <td><img src="images/menu/2.jpg"></td>
+                    <td><img src="images/menu/3.jpg"></td>
+                    <td><img src="images/menu/4.jpg"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/menu/5.jpg"></td>
+                    <td><img src="images/menu/6.jpg"></td>
+                    <td><img src="images/menu/7.jpg"></td>
+                    <td><img src="images/menu/8.jpg"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="Reviews">
+            <div style="height: 150px;width: 100%;"></div>
+            <h1>REVIEWS</h1><br>
+            Our Customers love us<br><br>
+            <table border="2px solid black">
+                <tr>
+                    <td><b style="font-size: 40px;">''</b>
+                        <strong>The food here is just awesome! 
+                        Me and my family are so in love 
+                        with this place that we come every weekend</strong><br><br>
+                        ~John Wick
+                    </td>
+                    <td><b style="font-size: 40px;">''</b>
+                        <strong>The food here is just awesome! 
+                        Me and my family are so in love 
+                        with this place that we come every weekend</strong><br><br>
+                        ~John Wick
+                    </td>
+                    <td><b style="font-size: 40px;">''</b>
+                        <strong>The food here is just awesome! 
+                        Me and my family are so in love 
+                        with this place that we come every weekend</strong><br><br>
+                        ~John Wick
+                    </td>
+                </tr>
+            </table><br><br>
+            Tell us about your experience.<br>
+            We'd love to hear you!<br><br>
+            <form>
+                <input type="radio" name="consumption_technique" id="Dine-In" value="Dine-In" required>
+                <label for="Dine-In">Dine-In</label>&emsp;&emsp;
+                <input type="radio" name="consumption_technique" id="Take-away" value="Take-away" required>
+                <label for="Take-away">Take-away</label><br><br>
+                <input required type="text" placeholder="Your Name" id="customer_name" style="width: 400px;height: 30px;font-size: 20px;font-family: 'Lato', 'Arial', sans-serif;"><br><br>
+                <textarea required placeholder="Your Valuable Feedback" id="customer_review" style="width: 400px;height: 200px;font-size: 20px;font-family: 'Lato', 'Arial', sans-serif;"></textarea><br><br>
+                <input type="submit" id="submit_review">
+                <input type="reset" id="reset_review">
+            </form>
+        </div>
+        <div id="Outlets">
+            <div style="height: 150px;width: 100%;"></div>
+            <h1>OUTLETS</h1><br>
+            <p>Come visit us at<br><br></p>
+            <table>
+                <tr>
+                    <td><img src="images/outlets/1.jpg"></td>
+                    <td><img src="images/outlets/2.jpg"></td>
+                    <td><img src="images/outlets/3.jpg"></td>
+                    <td><img src="images/outlets/4.jpg"></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-map-marker"></i>&ensp;Pune</td>
+                    <td><i class="fa fa-map-marker"></i>&ensp;Mumbai</td>
+                    <td><i class="fa fa-map-marker"></i>&ensp;Bangalore</td>
+                    <td><i class="fa fa-map-marker"></i>&ensp;Hyderabad</td>
+                </tr>
+            </table>
+        </div>
+        <div id="About">
+            <div style="height: 150px;width: 100%;"></div>
+            <h1>ABOUT</h1>
+            <p style="margin: 20px 100px 20px 100px; text-align: justify;font-weight: 300;">We provide the BEST food in the region. Started by a foodie, 
+                this restaurant serves mouth-watering dishes. <br><br>
+                A food enthusiast had a vision to provide food that tingles taste-buds ( in the yummiest way possible).
+                We are essentially providers of Indian continental food - From sandwiches to burgers to milkshakes to pizzas, we got it all.
+                We live by our tradition and serve food, in the most hygienic and delicious way possible.We take pride in making 
+                sure that our hygiene standards are at par with industry regulations.<br><br>
+                All our chefs, helpers and vendors from whom we source our materials have gone through careful 
+                screening to maintain good hygiene and all our food handlers are medically certified.<br><br>
+                The ambience of our restaurant is inspired by urban life with hints of yellow lights and comfy seating for the young fam. 
+                Good music-good food and a place to hangout with close friends has made crazy cheesy a youngsters favourite 
+                space to chill.In our quest to provide good quality pocket friendly food, we believe sky is the 
+                limit, and so we have geared ourselves up to expand our horizons to different localities within
+                city and beyond. We are now actively seeking crazy enthusiasts like us who are 
+                willing to take up franchisee of our flagship cafe crazy cheesy and become a part of our growing 
+                family.
+            </p>
+        </div>
+        <div id="Contact" style="overflow-y: hidden;">
+            <iframe frameborder="0" src="contacts.html" style="width: 100%;height:500px"></iframe>
+        </div>
+    </body>
+</html>

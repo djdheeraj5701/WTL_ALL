@@ -1,0 +1,29 @@
+/* @font-face { 
+    font-family: 'Segment7'; 
+    src: url('assets/Segment7-4Gml.otf'); 
+} */
+*{
+    font-family: 'Orbitron';
+    font-size: 60px;
+}
+table{
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+}
+th{
+    border-bottom: 2px solid black;
+}
+td{
+    text-align: center;
+}
+button{
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+
+}

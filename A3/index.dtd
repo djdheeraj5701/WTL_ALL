@@ -1,0 +1,7 @@
+<!ELEMENT Employee (Details)*>
+<!ELEMENT Details (Name,Age,Address,Salary,Image)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Salary (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar,
+#Menu::-webkit-scrollbar,
+#Reviews::-webkit-scrollbar,
+#Outlets::-webkit-scrollbar,
+#About::-webkit-scrollbar{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+a:link,
+a:visited{
+    color: black;
+    text-decoration-line: none;
+}
+
+.main-nav {
+    position: relative;
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.main-nav li,#Contact li  {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+#Contact li {
+    margin-right: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited,
+#Contact li a:link,
+#Contact li a:visited {
+    padding: 8px 0;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    font-size: 110%;
+    border-bottom: 2px solid #e62222;
+}
+#Outlets table,#Reviews table,#Menu table{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#Reviews table{
+    color: white;
+    border-spacing: 20px;
+    border-color: whitesmoke;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0,0.5), rgb(0, 0, 0,0.5)),url('images/background/bg.jpg');
+}
+#Reviews td{
+    padding: 40px;
+    border-radius: 20px;
+}
+#Outlets table{
+    font-size: 30px;
+}
+#Outlets img{
+    border-radius: 10px;
+    margin: 40px 40px 0px 40px;
+}
+#Menu img{
+    width: 100%;
+}
+
+#Menu,#Reviews,#Outlets,#About,#Contact{
+    width: auto;
+    margin: 0px 100px 140px 100px;
+    text-align: center;
+    -webkit-overflow-style:none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    height: max-content;
+}
+#Menu,#Contact{
+    margin: 150px 100px 140px 100px;
+}
+.fa{
+    font-size: 32px;
+}
+
+.fa-facebook:hover{
+    color: royalblue;
+}
+.fa-twitter:hover{
+    color: lightskyblue;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-instagram:hover{
+    color:magenta;
+}
+#submit_review,#reset_review{
+    
+    font-weight: 400;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    width: max-content;
+    
+    padding: 8px 16px 8px 16px;
+   
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#submit_review{
+    color: white;
+    background-color:orange;
+    border:none;
+}
+#reset_review{
+    color: orange;
+    background-color:white;
+    border:2px solid orange;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employee SYSTEM "index.dtd">
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<Employee>
+    <Details>
+        <Name>John Haykins</Name>
+        <Age>20</Age>
+        <Address>London</Address>
+        <Salary>$12000/month</Salary>
+        <Image>https://www.grosch-ps.com/wp-content/uploads/2016/09/Referenz_Andreas_Selzer-350x350.jpg</Image>
+    </Details>
+    <Details>
+        <Name>Stephen Prakash</Name>
+        <Age>25</Age>
+        <Address>Dubai</Address>
+        <Salary>$15000/month</Salary>
+        <Image>https://www.bradley.com/-/media/images/our-people/b/barron-caleb-l/lowresolutionimage/cbarronweb2.jpg</Image>
+    </Details>
+    <Details>
+        <Name>Gwen Tennyson</Name>
+        <Age>20</Age>
+        <Address>NYC</Address>
+        <Salary>$18000/month</Salary>
+        <Image>https://www.ecumen.org/wp-content/uploads/2014/12/Langan_Gabbi_LR.jpg</Image>
+    </Details>
+    <Details>
+        <Name>Steve Harvey</Name>
+        <Age>21</Age>
+        <Address>Paris</Address>
+        <Salary>$10000/month</Salary>
+        <Image>https://image.freepik.com/free-photo/single-pensive-portrait-young-employee_1098-6377.jpg</Image>
+    </Details>
+</Employee>
